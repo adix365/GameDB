@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+width: 100%;
+background-image: url("../assets//pexels-sean-whang-804269.jpg");
+background-size: cover;
+}
+header ul li{
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+}
+
+.card-items{
+display:inline-block;
+margin-bottom:20px ;
+}
+.card-title{
+font-size: 15px;
+font-style: italic;
+
+}
+.card-items:first-child{
+  margin-top: 200px;
+}
+
+footer{
+  background-color: black;
+}
+footer li{
+  text-decoration: none;
+}
+h4{
+  text-transform: uppercase;
+  color: white;
+  margin-top: 100px;
+
+}
+.gift{
+  margin-top: 200px;
+  color: white;
+  text-transform:uppercase;
+padding: 100px;
+margin: 100px;
+}
+.gift h4{
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+
+.end-sec{
+  text-align: center;
+  align-items: center;
+  margin-top: 200px;
+}
