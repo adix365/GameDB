@@ -1,5 +1,5 @@
 
-  async function allGame(){
+function allGame(){
     const options = {
       method: 'GET',
       headers: {
@@ -49,7 +49,7 @@
 
 
 
-async function fg(){
+ function fg(){
   const options = {
     method: 'GET',
     headers: {
@@ -61,7 +61,7 @@ async function fg(){
   fetch('https://steam-store-data.p.rapidapi.com/api/featured/', options)
     .then(response => response.json())
     .then(response => {
-      console.log(response['featured_win']);
+  
     
 let obj=document.getElementById('FG');
       for(let i=0;i<9;i++){
@@ -72,7 +72,7 @@ let obj=document.getElementById('FG');
 
     <h5 class="card-title">${response['featured_win'][i].name}</h5>
     <p class="card-text">${response['featured_win'][i].final_price}$</p>
-    <p class="card-text">${response['featured_win'][i].final_price}$</p>
+  
 
     
  </div>
