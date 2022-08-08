@@ -53,10 +53,28 @@ margin: 100px;
   text-transform: uppercase;
   margin-bottom: 100px;
 }
+.FG{
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
 
 
 .end-sec{
   text-align: center;
   align-items: center;
   margin-top: 200px;
+  margin-bottom: 200px;
+  text-transform: uppercase;
+
+}
+
+footer {
+text-align: center;
+align-items: center;
+
+}
+footer a{
+  color: white;
+margin-right: 50px;
 }
