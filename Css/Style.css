@@ -28,12 +28,8 @@ font-style: italic;
   margin-top: 200px;
 }
 
-footer{
-  background-color: black;
-}
-footer li{
-  text-decoration: none;
-}
+
+
 h4{
   text-transform: uppercase;
   color: white;
@@ -41,9 +37,9 @@ h4{
 
 }
 .gift{
-  margin-top: 200px;
-  color: white;
-  text-transform:uppercase;
+margin-top: 200px;
+color: white;
+text-transform:uppercase;
 padding: 100px;
 margin: 100px;
 }
@@ -72,9 +68,9 @@ margin: 100px;
 footer {
 text-align: center;
 align-items: center;
-
+background-color: black;
 }
 footer a{
-  color: white;
+color: white;
 margin-right: 50px;
 }
